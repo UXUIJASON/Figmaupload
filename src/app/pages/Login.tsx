@@ -49,7 +49,7 @@ export function Login({ onNavigate }: LoginProps) {
         </div>
       </div>
 
-      <Button fullWidth>Sign In</Button>
+      <Button fullWidth onClick={() => onNavigate('dashboard')}>Sign In</Button>
 
       <div className="flex items-center justify-center gap-2 mt-2">
         <span className="text-[14px] text-[#111c2d]/60">New to MaterialM3?</span>
